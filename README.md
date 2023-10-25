@@ -9,7 +9,7 @@ sudo reboot
 lsmod | grep r8168
 ```
 
-If `lsmod | grep r8168` is empty, you might have to disable secure boot in BIOS (bios key - F1)
+If `lsmod | grep r8168` is empty, you might have to disable secure boot in BIOS (bios key - F1) and then load it manually (look further)
 
 ```bash
 dkms status
